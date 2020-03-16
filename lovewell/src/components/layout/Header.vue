@@ -1,13 +1,17 @@
 <template>
   <div class="header">
- <img class=image src="../../assets/images/lovewellsummerday.jpg" >
+    <img class=image src="../../assets/images/lovewellsummerday.jpg" >
+    
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Header'
+  name: 'Header',
+ components: {
+    
+  }
 }
 </script>
 
