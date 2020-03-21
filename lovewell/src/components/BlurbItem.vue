@@ -1,29 +1,37 @@
 <template>
     <div>
-        <h1>{{blurb.title}}</h1>
-        <h3>{{blurb.sub_heading}}</h3>
+        <h3>{{blurbs.sub_heading}}</h3>
         <p>{{blurb.detail}}</p>   
     </div>
 </template>
 <script>
 export default {
     name: "BlurbItem",
-    props: ["blurb"] 
+    props: ["blurbs"] 
 }
 </script>
 
 <style scoped>
-h1 {
-  margin: 40px 0 0;
-  color: #236750;
-}
+
 h3 {
-  margin: 40px 0 0;
-  color: #287492
+
+left: 170px;
+/* width: 1420px; */
+height: 62px;
+text-align: left;
+letter-spacing: 0;
+color: #343638;
+opacity: 1;
 }
 p {
-  margin: 40px 0 0;
-  color: #343638
-}
+ 
+left: 0px;
+/* width: 324px; */
+height: 24px;
+text-align: left;
+font: Regular 18px/30px Open Sans;
+letter-spacing: 0;
+color: #343638;
+} 
 
 </style>
