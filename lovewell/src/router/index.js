@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import { NavbarPlugin, DropdownPlugin, CollapsePlugin } from 'bootstrap-vue'
 
 
 Vue.use(VueRouter)
+Vue.use(NavbarPlugin)
+Vue.use(DropdownPlugin)
+Vue.use(CollapsePlugin)
 
 const routes = [
   {

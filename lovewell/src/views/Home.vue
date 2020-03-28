@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header />
-    <br />
+    <hr />
     <b-container class="blurb-container">
       <b-row>
         <b-col class="margins" md="1"></b-col>
@@ -17,7 +17,7 @@
             </div>
           <!-- </b-col> -->
         </b-row>
-        <br />
+        <hr />
         <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="events">Upcoming Events</h2>
@@ -29,7 +29,7 @@
             </div>
           <!-- </b-col> -->
         </b-row>
-        <br />
+        <hr />
         <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="news">News &amp; Announcements</h2>
@@ -44,7 +44,7 @@
         <b-col class="margins" md="1"></b-col>
       </b-row>
     </b-container>
-    <br />
+    <hr />
     <Footer />
   </div>
 </template>
