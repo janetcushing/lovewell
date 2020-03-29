@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Header />
-          <div id="nav">
+    <div>
+          <!-- <div id="nav"> -->
             <!-- <router-link class="spacing" to="/">Home</router-link>|
             <router-link class="spacing" to="/about">About Lovewell Pond</router-link>
             <router-link class="spacing" to="/association">The Association</router-link>
@@ -24,10 +25,10 @@ export default {
 
 <style>
 body {
-  background: #f6f8f9;
+  background-color: #f6f8f9;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

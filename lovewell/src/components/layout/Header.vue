@@ -34,8 +34,9 @@ export default {
   width: 100%;
 } */
 .header-background {
-
-    /* border: 2px solid black;
+/*
+    border: 2px solid black;
+    
   padding: 25px;
   background: url("../../assets/images/lovewellpondsummer.png");
   background-repeat: no-repeat;

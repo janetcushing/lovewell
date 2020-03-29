@@ -1,7 +1,8 @@
 <template>
-<div>
+<div id="nav">
     <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <!-- variant="faded" type="light" -->
+        <b-navbar-brand href="#">Hello!</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -55,8 +56,28 @@ export default {
 <style scoped>
 #nav {
     background: #287492 0% 0% no-repeat padding-box;
+    background-color: #287492;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+}
+
+b-navbar-nav {
+   background: #287492 0% 0% no-repeat padding-box;
+   background-color: #287492;
+}
+
+b-nav-item {
+  background: #287492 0% 0% no-repeat padding-box;
+  background-color: #287492;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
