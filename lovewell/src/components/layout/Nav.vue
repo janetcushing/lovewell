@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
 #nav {
-    background: #287492 0% 0% no-repeat padding-box;
+    /* background: #287492 0% 0% no-repeat padding-box; */
     background-color: #287492;
     color: #ffffff;
     text-align: center;
@@ -63,12 +63,12 @@ export default {
 }
 
 b-navbar-nav {
-   background: #287492 0% 0% no-repeat padding-box;
+   /* background: #287492 0% 0% no-repeat padding-box; */
    background-color: #287492;
 }
 
 b-nav-item {
-  background: #287492 0% 0% no-repeat padding-box;
+  /* background: #287492 0% 0% no-repeat padding-box; */
   background-color: #287492;
 }
 
