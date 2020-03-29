@@ -1,23 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link class="spacing" to="/">Home</router-link> |
-      <router-link class="spacing" to="/about">About Lovewell Pond</router-link>
-      <router-link class="spacing" to="/association">The Association</router-link>
-      <router-link class="spacing" to="/resources">Resources</router-link>
-      <router-link class="spacing" to="/gallery">Photo Gallery</router-link>
-    </div>
-    <router-view/>
+    <Header />
+          <div id="nav">
+            <!-- <router-link class="spacing" to="/">Home</router-link>|
+            <router-link class="spacing" to="/about">About Lovewell Pond</router-link>
+            <router-link class="spacing" to="/association">The Association</router-link>
+            <router-link class="spacing" to="/resources">Resources</router-link>
+            <router-link class="spacing" to="/gallery">Photo Gallery</router-link> -->
+          </div>
+     <router-view /> 
+      <Footer />
   </div>
 </template>
 
 <script>
-
+import Header from "@/components/layout/Header.vue";
+import Footer from "@/components/layout/Footer.vue";
 export default {
-}
+  Header,
+  Footer
+};
 </script>
 
 <style>
+body {
+  background: #f6f8f9;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,8 +46,9 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
- 
-  .spacing { 
-    Margin-right: 10px; 
-  } 
+
+.spacing {
+  margin-right: 10px;
+}
+
 </style>
