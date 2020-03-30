@@ -41,11 +41,4 @@
     "> 1%",
     "last 2 versions"
   ]
-},
-{
-  "name": "lovewell",
-  "description": "Lovewell Pond Association Website",
-  "version": "1.0.0",
-  "engines": {
-    "node": "10.12.0"
 }
