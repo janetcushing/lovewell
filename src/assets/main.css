@@ -1,0 +1,123 @@
+@import "./reset.css";
+@import "bootstrap/dist/css/bootstrap.css";
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.blurb-container {
+  text-align: left;
+}
+.margins {
+  background: #f6f8f9 0% 0% no-repeat padding-box;
+}
+
+.l-heading {
+  left: 170px;
+  height: 38px;
+  font: Bold 32px/20px Ubuntu;
+  font-family: "Ubuntu", "Source Sans Pro", sans-serif;
+  letter-spacing: 0;
+  color: #265730;
+  opacity: 1;
+}
+
+.l-sub-heading {
+  left: 170px;
+  height: 38px;
+  font: Bold 20px/20px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #287492;
+  opacity: 1;
+}
+.l-small-sub-heading {
+  left: 170px;
+  font: Bold 14px/14px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #287492;
+  opacity: 1;
+}
+
+.l-text {
+  top: 30px;
+  left: 0px;
+  height: 24px;
+  font: Regular 18px/30px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #343638;
+}
+
+.l-text-block {
+  display: inline-block;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.l-small-text {
+  top: 30px;
+  left: 0px;
+  font: Bold 14px/14px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #343638;
+}
+.red-highlight {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.splash {
+  font: Regular 14px/14px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #cc1717;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(317, 20%, 93%, 0.2);
+    color: red;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
+
+@media (max-width: 768px) {
+  .col-md-1 {
+    flex: 0 0 0%;
+    max-width: 0%;
+  }
+
+  .l-heading {
+    font: Bold 20px/18px Ubuntu;
+  }
+
+  .l-sub-heading {
+    font: Bold 18px/16px "Open Sans";
+  }
+  .l-small-sub-heading {
+    font: Bold 16px/14px "Open Sans";
+  }
+
+  .l-text {
+    font: Regular 11px/10px "Open Sans";
+  }
+}
