@@ -3,8 +3,8 @@
     <br />
     <div class="container blurb-container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
           <div class="row">
             <h2 class="l-heading">Stewardship Practices Checklist</h2>
             <h5 class="l-heading">
@@ -120,6 +120,7 @@
           </div>
           <br /><br />
         </div>
+        <div class="col-md-1"></div>
       </div>
     </div>
   </div>

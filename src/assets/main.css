@@ -93,6 +93,11 @@
     place-items: center;
   }
 
+  .col-md-1 {
+    flex: 0 0 0%;
+    max-width: 0%;
+  }
+
   /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,7 +110,6 @@
     flex: 0 0 0%;
     max-width: 0%;
   }
-
   .l-heading {
     font: Bold 20px/18px Ubuntu;
   }

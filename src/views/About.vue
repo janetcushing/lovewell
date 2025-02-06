@@ -3,8 +3,8 @@
     <br /><br />
     <div class="container blurb-container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
           <div class="row">
             <h1 class="l-heading">About Lovewell Pond</h1>
           </div>
@@ -315,7 +315,7 @@
             </p>
           </div>
         </div>
-        <div class="col-1"></div>
+        <div class="col-md-1"></div>
       </div>
     </div>
     <br />

@@ -3,8 +3,8 @@
     <br />
     <div class="container blurb-container">
       <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
           <div class="row">
             <h2 class="l-heading">Resources</h2>
           </div>
