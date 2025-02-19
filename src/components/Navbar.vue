@@ -1,6 +1,6 @@
 <template>
   <b-nav id="nav" class="navbar navbar-nav">
-    <div class="container-fluid">
+    <div class="container">
       <!-- <button
         id="hamburger"
         class="navbar-toggler"
@@ -56,6 +56,8 @@ export default {
 .navbar {
   background-color: #287492;
   color: #ffffff;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .nav-collapse {
   background-color: #287492;
@@ -99,8 +101,12 @@ export default {
   color: #ffc107;
 }
 @media (max-width: 992px) {
+  .navbar {
+    margin-left: 31px;
+    margin-right: 31px;
+  }
   .navbar-nav {
-    display: none;
+    display: flex;
   }
   .navbar-toggler {
     display: block;
@@ -116,6 +122,10 @@ export default {
   }
 }
 @media (max-width: 768px) {
+  .navbar {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
   .navbar-nav {
     display: flex;
   }
