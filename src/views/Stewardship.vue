@@ -11,6 +11,7 @@
               for the Protection & Resiliency of Lovewell Lake, Fryeburg, ME
             </h5>
           </div>
+          <br /><br />
           <div class="row">
             <p>
               <a

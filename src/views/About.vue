@@ -18,35 +18,33 @@
           </div>
           <br />
           <div class="row">
-            <ul>
+            <ul class="list-group">
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   is approximately 1,120 acres in size
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   has an elevation of 357 feet above sea level
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   has a drainage area calculated at 3,101 acres
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
-                  has a maximum depth of 45 feet
-                </li>
+                <li class="list-group-item">has a maximum depth of 45 feet</li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   has about 75-80 buildings along the shoreline, with
                   approximately 35 others with access rights to the shoreline
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   supports a population of brown trout as well as other warmer
                   water species such as smallmouth bass, white perch, yellow
                   perch, pickerel, eels, white sucker, long nose sucker, and
@@ -132,37 +130,35 @@
             </p>
           </div>
           <div class="row">
-            <ul>
+            <ul class="list-group">
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   Use only phosphate free detergents and fertilizer
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   Enjoy loons from a distance, give them plenty of space
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   While boating, watch for loons and keep your distance
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   Slow down if you suspect you are close to diving loons
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
+                <li class="list-group-item">
                   Use only lead free fishing sinkers and jigs, and properly
                   dispose of old lead tackle
                 </li>
               </div>
               <div class="row">
-                <li class="l-text l-text-block">
-                  Retrieve broken fishing lines
-                </li>
+                <li class="list-group-item">Retrieve broken fishing lines</li>
               </div>
             </ul>
           </div>
@@ -190,21 +186,21 @@
 
           <ul>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a href="https://loon.org" target="_blank"
                   >Loon Preservation Committee, Moultonboro, NH</a
                 >
               </li>
             </div>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a href="https://maineaudubon.org" target="_blank"
                   >Maine Audubon</a
                 >
               </li>
             </div>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a
                   href="https://maineaudubon.org/wp-content/uploads/2020/06/Loon-Territory-Brochure-WEB.pdf"
                   target="_blank"
@@ -213,7 +209,7 @@
               </li>
             </div>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a
                   href="https://maineaudubon.org/projects/loons/annual-loon-count/"
                   target="_blank"
@@ -222,7 +218,7 @@
               </li>
             </div>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a
                   href="https://thespruce.com/birding-and-wild-birds-4127712"
                   target="_blank"
@@ -231,7 +227,7 @@
               </li>
             </div>
             <div class="row">
-              <li class="l-text l-text-block">
+              <li class="list-group-item">
                 <a href="michiganloons.org" target="_blank"
                   >Michigan Loon Preservation</a
                 >
