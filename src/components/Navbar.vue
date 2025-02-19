@@ -1,7 +1,7 @@
 <template>
   <b-nav id="nav" class="navbar navbar-nav">
     <div class="container-fluid">
-      <button
+      <!-- <button
         id="hamburger"
         class="navbar-toggler"
         type="button"
@@ -10,9 +10,10 @@
         @click="toggleMenu"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
-      <div class="collapse" id="collapseTarget">
+      <!-- <div class="collapse" id="collapseTarget"> -->
+      <div>
         <RouterLink to="/">&nbsp;&nbsp;Home&nbsp;&nbsp;</RouterLink>
         <RouterLink to="/about"
           >&nbsp;&nbsp;Lovewell Pond&nbsp;&nbsp;</RouterLink
