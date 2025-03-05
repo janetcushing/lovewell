@@ -1,20 +1,20 @@
 <template>
-  <!-- <div> -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div>
-          <h6 id="title">The Lovewell Pond Association</h6>
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <h6 id="title">The Lovewell Pond Association</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <Navbar />
         </div>
       </div>
     </div>
-    <!-- <div class="row"> -->
-    <!-- <div class="col-md-12"> -->
-    <!-- <Navbar /> -->
-    <!-- </div> -->
-    <!-- </div> -->
   </div>
-  <!-- </div> -->
 </template>
 
 <script>
@@ -22,7 +22,7 @@ import Navbar from "@/components/Navbar.vue";
 export default {
   name: "Header",
   components: {
-    // Navbar,
+    Navbar,
   },
 };
 </script>

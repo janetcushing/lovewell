@@ -53,12 +53,12 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  background-color: #287492;
-  color: #ffffff;
-  margin-left: 12px;
-  margin-right: 12px;
-}
+/* .navbar { */
+/* background-color: #287492; */
+/* color: #ffffff; */
+/* margin-left: 10px; */
+/* margin-right: 10px; */
+/* } */
 .nav-collapse {
   background-color: #287492;
 }
@@ -101,10 +101,10 @@ export default {
   color: #ffc107;
 }
 @media (max-width: 992px) {
-  .navbar {
+  /* .navbar {
     margin-left: 31px;
     margin-right: 31px;
-  }
+  } */
   .navbar-nav {
     display: flex;
   }
@@ -122,10 +122,10 @@ export default {
   }
 }
 @media (max-width: 768px) {
-  .navbar {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
+  /* .navbar { */
+  /* margin-left: 12px; */
+  /* margin-right: 12px; */
+  /* } */
   .navbar-nav {
     display: flex;
   }
