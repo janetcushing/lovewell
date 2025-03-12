@@ -3,14 +3,15 @@
     <div class="row align-items-end">
       <div class="col-md-1"></div>
       <div class="col-md-1 justify-content-center">
-        <button
+        <a
+          role="button"
           id="ppbtn"
           class="btn btn-outline-info"
           href="TheLovewellPondAssociationPrivacyPolicy.pdf"
           target="_blank"
         >
           Privacy Policy
-        </button>
+        </a>
       </div>
       <div id="footer-text" class="col-md-8 justify-content-center">
         <p>&copy;Lovewell Pond Association - All rights reserved.</p>
