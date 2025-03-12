@@ -89,7 +89,6 @@ export default {
     color: white;
   }
 }
-
 @media screen and (max-width: 768px) {
   #footer-text {
     font: Bold 11px/10px Arial;
@@ -99,7 +98,6 @@ export default {
     color: white;
   }
 }
-
 @media screen and (max-width: 640px) {
   #footer-text {
     font: Bold 11px/10px Arial;
