@@ -4,6 +4,7 @@ import About from "../views/About.vue";
 import Association from "../views/Association.vue";
 import LakeStewardship from "../views/Stewardship.vue";
 import Resources from "../views/Resources.vue";
+import Gear from "../views/Gear.vue";
 import LostAndFound from "../views/LostAndFound.vue";
 
 const router = createRouter({
@@ -36,6 +37,12 @@ const router = createRouter({
       path: "/resources",
       name: "resources",
       component: Resources,
+    },
+    {
+      path: "/gear",
+      name: "lostandfoundgear",
+      component: Gear,
+      // component: () => import('../views/Gear.vue')
     },
     {
       path: "/lostandfound",

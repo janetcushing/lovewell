@@ -22,20 +22,21 @@
           </div>
           <br />
           <div class="row">
-            <h3 class="splash">
-              We currently have open positions on our board. Please
+            <!-- <h3 class="splash">
+              We currently have open positions on our board. We are looking for
+              a new Treasurer, and also Members at Large. Please
               <a href="mailto:lovewellpondassoc@gmail.com" target="_blank"
                 >contact us</a
               >
               if you would like to volunteer!
-            </h3>
+            </h3> -->
           </div>
           <br />
           <div class="row">
             <h6>
               <strong
-                >A Special <span class="splash">THANK YOU</span> to all of our
-                board, past and present !
+                >A Special <span class="splash">THANK YOU</span> to Paul Fortin,
+                who has been our Treasurer for many years !
               </strong>
             </h6>
             <p></p>
@@ -72,7 +73,7 @@ export default {
         {
           id: 3,
           title: "Treasurer:",
-          name: "Paul Fortin",
+          name: "BethAnn Cantin",
         },
         {
           id: 4,
@@ -87,11 +88,22 @@ export default {
         {
           id: 5,
           title: "",
+          name: "Karen DelGreco",
+        },
+        {
+          id: 5,
+          title: "",
           name: "Mike Cherry",
         },
         {
+          id: 5,
+          title: "",
+          name: "Josh Everett",
+        },
+
+        {
           id: 6,
-          title: "Social Events Committee:",
+          title: "Social Events Committee",
           name: "Karen DelGreco",
         },
         {

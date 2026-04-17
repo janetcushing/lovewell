@@ -27,6 +27,7 @@
         <RouterLink to="/resources"
           >&nbsp;&nbsp;Resources&nbsp;&nbsp;</RouterLink
         >
+        <!-- <RouterLink to="/gear"> &nbsp;&nbsp;Lake Gear&nbsp;&nbsp; </RouterLink> -->
         <RouterLink to="/lostandfound">
           &nbsp;&nbsp;Lost and Found&nbsp;&nbsp;
         </RouterLink>
