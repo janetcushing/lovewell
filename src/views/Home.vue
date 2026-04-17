@@ -142,7 +142,8 @@ export default {
         {
           id: 1,
           title: "Upcoming Events",
-          sub_heading: "2025 Annual Meeting, Sunday, June 29th, 9 AM",
+          sub_heading:
+            "2026 Annual Meeting, tentatively planned for Sunday, June 28th, 9 AM",
           detail:
             "The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting at the Rapputak Community Lodge at 9:00 AM.  From 9 to 10, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!",
         },
