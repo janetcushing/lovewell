@@ -36,7 +36,7 @@
             <h6>
               <strong
                 >A Special <span class="splash">THANK YOU</span> to Paul Fortin,
-                who has been our Treasurer for many years !
+                who has been our Treasurer for 9 years !
               </strong>
             </h6>
             <p></p>
