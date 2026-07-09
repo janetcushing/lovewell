@@ -1,5 +1,5 @@
 <template>
-  <b-nav id="nav" class="navbar navbar-nav">
+  <nav id="nav" class="navbar navbar-nav">
     <div class="container">
       <!-- <button
         id="hamburger"
@@ -42,7 +42,7 @@
         >
       </div>
     </div>
-  </b-nav>
+  </nav>
   <RouterView />
 </template>
 
