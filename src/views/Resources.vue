@@ -97,6 +97,13 @@ export default {
           detail:
             '<a href="http://www.maine.gov/doc" target="_blank">Department of Conservation</a>',
         },
+        {
+          id: 6,
+          title: "Maine",
+          sub_heading: "Maine Department of Inland Fisheries and WIldlife",
+          detail:
+            '<a href="https://www.maine.gov/ifw/" target="_blank">Department of Inland Fisheries and Wildlife</a>',
+        },
       ],
       lake: [
         {
